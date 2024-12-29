@@ -62,3 +62,8 @@ html, body {
     padding: 10px;
     margin: 10px;
   }
+  @media (max-width: 480px) {
+    #navbar {
+      display: none; /* Mobilde navbar'ı gizle */
+    }
+}
